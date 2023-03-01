@@ -1,0 +1,21 @@
+.row {
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 8px;
+  background-color: #aaa;
+}
+
+.children {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.box {
+  /* height: fit-content; */
+  width: fit-content;
+  justify-self: center;
+}

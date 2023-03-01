@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+}
+
+.status {
+  display: flex;
+  align-content: center;
+  margin-bottom: 16px;
+}
