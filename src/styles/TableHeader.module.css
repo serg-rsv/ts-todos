@@ -1,9 +1,9 @@
 .tableHeader {
   max-width: 550px;
   display: grid;
-  margin-top: 72px;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  padding: 8px;
   background-color: #e3e3e3;
   text-transform: uppercase;
 }

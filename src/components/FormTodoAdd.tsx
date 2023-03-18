@@ -67,7 +67,7 @@ const FormTodoAdd: React.FC = () => {
           }}
         />
         {!isTitleValid && (
-          <div style={{ color: 'red', fontSize: '12px' }}>
+          <div style={{ position: 'absolute', color: 'red', fontSize: '12px' }}>
             This filed is empty
           </div>
         )}
@@ -89,7 +89,7 @@ const FormTodoAdd: React.FC = () => {
           }}
         />
         {!isDescriptionValid && (
-          <div style={{ color: 'red', fontSize: '12px' }}>
+          <div style={{ position: 'absolute', color: 'red', fontSize: '12px' }}>
             This filed is empty
           </div>
         )}

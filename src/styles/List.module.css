@@ -1,0 +1,84 @@
+.table {
+  border-collapse: collapse;
+  font-size: 16px;
+  width: 550px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table td.action {
+  text-align: center;
+}
+
+th.actionTh {
+  text-align: center;
+  width: 20%;
+}
+
+.table th {
+  background-color: #e3e3e3;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.row:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.row:hover {
+  background-color: #efefef;
+}
+
+.deletedRow {
+  background-color: #f0b5b5;
+}
+
+.deletedRow:nth-child(even):hover,
+.deletedRow:hover {
+  background-color: #ffe0e0;
+}
+
+.deletedRow:nth-child(even) {
+  background-color: #ff9c9c;
+}
+
+.singleRow td {
+  text-align: center;
+}
+
+.form {
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 24px;
+  margin-bottom: 72px;
+}
+
+.input,
+.button {
+  height: 2em;
+  font-size: 1em;
+}
+
+.input {
+  padding: 4px;
+  width: 100%;
+  border-color: initial;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.button {
+  padding: 4px 16px 4px 16px;
+  align-self: end;
+  border-width: 1px;
+}
+
+.error {
+  border-color: red;
+}

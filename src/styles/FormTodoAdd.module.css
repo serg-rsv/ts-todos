@@ -1,16 +1,27 @@
 .form {
-  max-width: 600px;
-  min-height: 72px;
+  max-width: 550px;
   display: grid;
   grid-template-columns: 3fr 3fr 1fr;
   grid-gap: 24px;
+  margin-bottom: 72px;
+}
+
+.input,
+.button {
+  height: 2em;
+  font-size: 1em;
 }
 
 .input {
+  padding: 4px;
   width: 100%;
+  border-color: initial;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .button {
-  align-self: center;
-  height: fit-content;
+  padding: 4px 16px 4px 16px;
+  align-self: end;
+  border-width: 1px;
 }
